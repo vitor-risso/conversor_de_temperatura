@@ -10,14 +10,19 @@ int main(){
 
    while ( operation != 0 ){
 
-        printf("Qual escala vocÊ quer?\n");
-        printf("(1) Celsiu para fareihent\n");
+        printf("\n\n\t\t >>>>>Qual escala você quer?<<<<<\n\n");
+        printf("(1) Celsiu para fahrenheit\n");
         printf("(2) Celsiu para Kelvin\n");
-        printf("(0) Sair do converssor\n");
+        printf("(0) Sair do converssor\n\n");
+        printf("\t\t >>>>>>");
         scanf("%i", &operation);
+        printf("\n\n");
 
-        printf("Digite a temperatura em °C: );
+        if (operation !=0){
+
+        printf("Digite a temperatura em °C: ");
         scanf("%f", &temperatura);
+        printf("\n\n");
 
         switch (operation){
 
@@ -30,11 +35,10 @@ int main(){
                 break;
 
 
+           } 
         }
 
  }
-
-
 
 
     return 0;

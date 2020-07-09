@@ -2,6 +2,7 @@
 #include <stdlib.h>
 
 int main(){
+    
     int operation = 1;
     float temperatura;
 
@@ -24,7 +25,7 @@ int main(){
         scanf("%f", &temperatura);
         printf("\n\n");
 
-        switch (operation){
+          switch (operation){
 
             case 1:
                   printf("O valor em F é: %.2f\n\n", (temperatura*9/5)+32 );
